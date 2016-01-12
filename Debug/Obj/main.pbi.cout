@@ -1,4 +1,4 @@
-"C:\Users\sts\Documents\MSP\MSP430-PIR_Examples_IAR_4.21\MSP430-PIR_Sensor\main.c"
+"C:\Users\sts\Documents\MSP\MotionDetection\main.c"
 -std=c99
 -ferror-limit=100
 -I
