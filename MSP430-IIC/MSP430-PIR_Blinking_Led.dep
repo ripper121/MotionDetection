@@ -6,9 +6,9 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Debug\Exe\MSP430-PIR_Blinking_Led.ulp</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\MSP430-PIR_Blinking_Led.ulp</file>
       <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
       <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
       <file>$PROJ_DIR$\Debug\Exe\MSP430-PIR_Blinking_Led.d43</file>
@@ -19,23 +19,7 @@
       <file>$TOOLKIT_DIR$\inc\msp430.h</file>
       <file>$PROJ_DIR$\Debug\Obj\MSP430-PIR_Blinking_Led.pbd</file>
       <file>$TOOLKIT_DIR$\inc\msp430f2013.h</file>
-      <file>$PROJ_DIR$\..\..\MSP430F20xx_Code_Examples\C\msp430x20x3_usi_09.c</file>
-      <file>$PROJ_DIR$\..\..\MSP430F20xx_Code_Examples\C\msp430x20x3_usi_15.c</file>
-      <file>$PROJ_DIR$\..\..\MSP430F20xx_Code_Examples\C\msp430x20x3_usi_08.c</file>
     </outputs>
-    <file>
-      <name>[ROOT_NODE]</name>
-      <outputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 5</file>
-        </tool>
-        <tool>
-          <name>ULP430</name>
-          <file> 0</file>
-        </tool>
-      </outputs>
-    </file>
     <file>
       <name>$PROJ_DIR$\main.c</name>
       <outputs>
@@ -62,6 +46,19 @@
           <file> 4 7 12 10</file>
         </tool>
       </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
     </file>
     <file>
       <name>$PROJ_DIR$\Debug\Exe\MSP430-PIR_Blinking_Led.d43</name>

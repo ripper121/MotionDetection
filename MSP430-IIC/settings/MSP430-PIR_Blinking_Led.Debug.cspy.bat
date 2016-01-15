@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\sts\Documents\MSP\MSP430-PIR_Examples_IAR_4.211\MSP430-PIR_Blinking_Led\settings\MSP430-PIR_Blinking_Led.Debug.general.xcl" --backend -f "C:\Users\sts\Documents\MSP\MSP430-PIR_Examples_IAR_4.211\MSP430-PIR_Blinking_Led\settings\MSP430-PIR_Blinking_Led.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\sts\Documents\MSP\MotionDetection\MSP430-IIC\settings\MSP430-PIR_Blinking_Led.Debug.general.xcl" --backend -f "C:\Users\sts\Documents\MSP\MotionDetection\MSP430-IIC\settings\MSP430-PIR_Blinking_Led.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\sts\Documents\MSP\MSP430-PIR_Examples_IAR_4.211\MSP430-PIR_Blinking_Led\settings\MSP430-PIR_Blinking_Led.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\sts\Documents\MSP\MSP430-PIR_Examples_IAR_4.211\MSP430-PIR_Blinking_Led\settings\MSP430-PIR_Blinking_Led.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\sts\Documents\MSP\MotionDetection\MSP430-IIC\settings\MSP430-PIR_Blinking_Led.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\sts\Documents\MSP\MotionDetection\MSP430-IIC\settings\MSP430-PIR_Blinking_Led.Debug.driver.xcl" 
 
 @echo off 
 :end

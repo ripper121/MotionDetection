@@ -11,7 +11,7 @@ ActionState=1
 Enabled=0
 ShowSource=1
 [DebugChecksum]
-Checksum=-1116223962
+Checksum=1179230085
 [DisAssemblyWindow]
 NumStates=_ 1
 State 1=_ 1
@@ -20,11 +20,11 @@ Enabled=_ 0
 [CodeCoverage]
 Enabled=_ 0
 [State Storage]
-Control Register=63852
+Control Register=63694
 [Sequencer]
-Control Register=63852
-NextState0=63852
-NextState1=63852
+Control Register=63694
+NextState0=63694
+NextState1=63694
 [Action Register]
 Break=1
 State Storage=1
@@ -45,7 +45,7 @@ FillEnabled=0
 OverflowWarningsEnabled=1
 WarningThreshold=90
 SpWarningsEnabled=1
-WarnLogOnly=0
+WarnLogOnly=1
 UseTrigger=1
 TriggerName=main
 LimitSize=0
@@ -62,6 +62,13 @@ Counter1=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ShowArgs=0
 [Disassembly]
 MixedMode=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
 [Breakpoints]
 Count=0
 [FET]
@@ -84,13 +91,6 @@ SP=0
 SR=0
 all registers=0
 File name=
-[Log file]
-LoggingEnabled=_ 0
-LogFile=_ ""
-Category=_ 0
-[TermIOLog]
-LoggingEnabled=_ 0
-LogFile=_ ""
 [Aliases]
 Count=0
 SuppressDialog=0
